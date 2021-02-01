@@ -2,6 +2,7 @@
   "name": "test-two",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://achii8.github.io/testtwoproject",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
@@ -14,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
